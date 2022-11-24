@@ -8,7 +8,7 @@ The complexity of the task is that some logs are not "cut down" from the first t
 1. Check the green pixel, determining which side the character is on now (this check must be performed, since some bonuses change the position of the character randomly);
 2. Take a screenshot of the pink area of the screen;
 3. Look at that red-blue pair of pixels, which is from the side of the character;
-4. If the colors of the two pixels are not enouth similar, then we decide that there is a branch above the character (many variations of branch detecting have been tried here, up to a specific color in the screen area);
+4. If the colors of the two pixels are not enouth similar (the background in these places changes quite smoothly), then we decide that there is a branch above the character (many variations of branch detecting have been tried here, up to a specific color in the screen area);
 5. Make "tap" at the safe side of the tree (in case of changing the side "tap" can be done twice at once)
 6. Repeat until we see the loss screen
 
